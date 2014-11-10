@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+
+.nameofthegame h1 {
+	background-size: 100% 100%;
+    text-align: center;
+ 	font-family: 'Shadows Into Light', cursive;
+ 	font-style: bold;
+ 	font-size: 50px;
+}
+
+.nameofthegame p {
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+}
+body {
+	color: white;
+	background-image: url('../background/brain.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#elapsed-seconds {
+	font-family: 'Anton', sans-serif;nto Light', cursive;
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+#clickstart {
+	font-family: 'Lato', 'Helvetica-Neue', sans-serif;
+    font-size: 25px;
+}
+
+#startgame h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	float: center;
+	text-align: right;
+	margin-right: 20%;
+	text-decoration: underline;
+}
+
+#statistics h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	text-align: right;
+	margin-right: 20%;
+}
+
+button.btn-default {
+	margin-left: 12%;;
+	cursor: pointer;
+	color: blue;
+	font-size: 25px;
+	font-family: 'Noto Serif', serif;
+}
+
+#game-board {
+	float: left;
+	margin-left: 12%;
+}
+
+#game-board img {
+	width: 150px;
+	height: 150px;
+	margin-left: 40px;
+	cursor: pointer;
+    padding: 0.25em;
+    border-radius: 20%;
+    opacity: 0.85;
+}
+
+#footer {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: right;
+	margin-right: 10%;
+	float: right;
+}
