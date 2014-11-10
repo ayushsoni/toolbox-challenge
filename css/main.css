@@ -17,12 +17,17 @@
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
 }
+
 body {
 	color: white;
 	background-image: url('../background/brain.jpg');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+}
+
+#game-stuff-modal {
+    color: blue;
 }
 
 #elapsed-seconds {
