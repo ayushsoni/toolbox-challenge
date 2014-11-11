@@ -25,7 +25,7 @@
 		                        <h4 class="modal-title">Game Rules</h4>
 		                    </div>
 		                    <div class="modal-body" id="message">
-		                        <ul>Welcome to the Memory Game
+		                        <ul>Welcome to the Memory Game!
 									<li>You get started by hitting the "Start Thinking" button, which sets and resets
                                         your timer to 0 seconds.</li>
 									<li>Next, you begin by clicking on any of the 16 tiles you see on the page.
@@ -52,29 +52,42 @@
 			</section>
 			
 			<section id="thewholegame">
-				<br><p id="elapsed-seconds"></p>
+				<p id="elapsed-seconds">Elapsed Time: 0 seconds</p>
 				<div id="game-board"</div>
 			</section>
 			
 			<section id="startgame">
-				<br><br><br><br><br><br><br></b><h1>Results</h1>
+				<h1>Results</h1>
 
-			<div id="statistics">
-	        	<br><h2>Missed: <span class= "stat1" id="missed">0</span></h2>
+				<div id="statistics">
+	        		<h2 class="stat1" id="missed">Missed: 0</h2>
 	           
-				<br><h2>Remaining: <span class= "stat2" id="remaining">8</span></h2>
+					<h2 class="stat2" id="remaining">Remaining: 0</h2>
 	      	
-	        	<br><h2>Matches: <span class= "stat3" id="matches">0</span></h2>
-	        </div>
-
+	        		<h2 class="stat3" id="matches">Matches: 0</h2>
+	       		</div>
 	       	</section>
-
         	<footer id="footer">
         		<p><a href="#">Back To Top &uarr;</a></p> 
            		<p>&copy; 2014, Ayush Soni, University of Washington Information School</p>
             </footer>
-
 		</main>
+		 <div class="modal fade" id="congrats-modal">
+         	<div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Congratulations!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Congratulations! You found the Matching pairs and won! Click on the Start thinking again button to do it in a faster time.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="play-again-button">Start thinking again!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
